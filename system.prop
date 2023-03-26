@@ -1,4 +1,5 @@
 # Camera
+log.tag.CHIUSECASE=ERROR
 camera.disable_zsl_mode=true
 
 # Disable vsync for cpu rendered apps
