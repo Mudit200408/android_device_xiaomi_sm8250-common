@@ -531,6 +531,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 endif
 
+# Thermal Mi_Thermald
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.sys.thermal.data.path=/data/vendor/thermal/
+
 # USB
 PRODUCT_HAS_GADGET_HAL := true
 PRODUCT_PACKAGES += \
